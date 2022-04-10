@@ -1,0 +1,43 @@
+const Mongoose = require('mongoose');
+const  Facultys = Mongoose.model("facultys", {
+  collage_id:{
+    type:String,
+  },
+  faculty_firstname:{
+    type:String,
+  },
+  faculty_middlename:{
+    type:String,
+  },
+  faculty_lastname:{
+    type:String,
+  },
+  faculty_email:{
+      type:String,
+  },
+  password:{
+    type:String,
+  },
+  co_no:{
+    type:String,
+  },
+  local_add:{
+      type:String,
+  },
+  city:{
+      type:String,
+  },
+  state:{
+      type:String,
+  },
+  pin:{
+      type:String,
+  },
+  profile:{
+    type:String,
+},
+  role:{
+    type:String,
+},
+});
+module.exports = Facultys;

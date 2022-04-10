@@ -1,0 +1,49 @@
+const Mongoose = require('mongoose');
+const  Students = Mongoose.model("students", {
+  collage_id:{
+    type:String,
+  },
+  student_firstname:{
+    type:String,
+  },
+  student_middlename:{
+    type:String,
+  },
+  student_lastname:{
+    type:String,
+  },
+  student_en_no:{
+      type:String,
+  },
+  student_email:{
+      type:String,
+  },
+  password:{
+    type:String,
+  },
+  co_no:{
+    type:String,
+  },
+  admission_year:{
+    type:String,
+  },
+  local_add:{
+      type:String,
+  },
+  city:{
+      type:String,
+  },
+  state:{
+      type:String,
+  },
+  pin:{
+      type:String,
+  },
+  profile:{
+     type:String,
+  },
+  role:{
+    type:String,
+},
+});
+module.exports = Students;
